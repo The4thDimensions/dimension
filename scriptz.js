@@ -1,1 +1,1 @@
-location.replace('https://dimension.aysoat.site/HP')
+location.replace('https://4thdimension.live/HP')
