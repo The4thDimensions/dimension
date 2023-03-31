@@ -41,6 +41,29 @@
     
   </head>
   <body>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCjizSWta6SAtqB4fHSo1-WV8NJe5ms3RM",
+        authDomain: "thdimension-81db4.firebaseapp.com",
+        projectId: "thdimension-81db4",
+        storageBucket: "thdimension-81db4.appspot.com",
+        messagingSenderId: "74401602684",
+        appId: "1:74401602684:web:22d8280c728b682a6bfdf9",
+        measurementId: "G-YMH5X6D922"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   <div>
       <!--<audio controls autoplay height="" width="">
         <source src="startup.mp3" type="audio/mp3" />
