@@ -1,8 +1,4 @@
-window.addEventListener("DOMContentLoaded", event => {
-const audio = document.querySelector("audio");
-audio.volume = 0.7;
-audio.play();
-});
+
 
 var splashScreen = document.querySelector('.splash');
 splashScreen.addEventListener('click',()=>{
@@ -14,3 +10,8 @@ splashScreen.addEventListener('click',()=>{
 
 
 })
+window.addEventListener("DOMContentLoaded", event => {
+  const audio = document.querySelector("audio");
+  audio.volume = 0.8;
+  audio.play();
+  })  
