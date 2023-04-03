@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", event => {
   audio.play();
   })  
 
-  var delayInMilliseconds = 6000; //6 second
+  var delayInMilliseconds = 3000; //3 second
 
 setTimeout(function() {
   location.replace('https://4thdimension.live/HP/')
